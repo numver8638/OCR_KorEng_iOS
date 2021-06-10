@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7620543026595DDE0017A044 /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7620542F26595DDE0017A044 /* labels.txt */; };
+		763EB42E2657BC0B002AE605 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 763EB42D2657BC0B002AE605 /* OpenCVWrapper.mm */; };
+		763EB4322657D858002AE605 /* Recognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763EB4312657D858002AE605 /* Recognizer.swift */; };
+		763EB4342657F8F1002AE605 /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 763EB4332657F8F1002AE605 /* model.tflite */; };
+		76C55FB82657BB570072B9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C55FB72657BB570072B9D3 /* AppDelegate.swift */; };
+		76C55FBA2657BB570072B9D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C55FB92657BB570072B9D3 /* SceneDelegate.swift */; };
+		76C55FBC2657BB570072B9D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C55FBB2657BB570072B9D3 /* ViewController.swift */; };
+		76C55FBF2657BB570072B9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C55FBD2657BB570072B9D3 /* Main.storyboard */; };
+		76C55FC12657BB5C0072B9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C55FC02657BB5C0072B9D3 /* Assets.xcassets */; };
+		76C55FC42657BB5C0072B9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C55FC22657BB5C0072B9D3 /* LaunchScreen.storyboard */; };
+		78837D10AE51055BB7701F6C /* Pods_OCR_KorEng_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCAE39D536928631D19E4BB /* Pods_OCR_KorEng_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		246B56A1A3670FF3A089F134 /* Pods-OCR_KorEng_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR_KorEng_iOS.release.xcconfig"; path = "Target Support Files/Pods-OCR_KorEng_iOS/Pods-OCR_KorEng_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4BCAE39D536928631D19E4BB /* Pods_OCR_KorEng_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCR_KorEng_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7620542F26595DDE0017A044 /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = labels.txt; path = ../labels.txt; sourceTree = "<group>"; };
+		763EB42C2657BC0B002AE605 /* OCR_KorEng_iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCR_KorEng_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		763EB42D2657BC0B002AE605 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		763EB42F2657BC32002AE605 /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		763EB4302657BC47002AE605 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		763EB4312657D858002AE605 /* Recognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recognizer.swift; sourceTree = "<group>"; };
+		763EB4332657F8F1002AE605 /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = SOURCE_ROOT; };
+		76C55FB42657BB570072B9D3 /* OCR_KorEng_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR_KorEng_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C55FB72657BB570072B9D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76C55FB92657BB570072B9D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76C55FBB2657BB570072B9D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76C55FBE2657BB570072B9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76C55FC02657BB5C0072B9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76C55FC32657BB5C0072B9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76C55FC52657BB5C0072B9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B516E33BB20427B15953573E /* Pods-OCR_KorEng_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCR_KorEng_iOS.debug.xcconfig"; path = "Target Support Files/Pods-OCR_KorEng_iOS/Pods-OCR_KorEng_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76C55FB12657BB570072B9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78837D10AE51055BB7701F6C /* Pods_OCR_KorEng_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76C55FAB2657BB570072B9D3 = {
+			isa = PBXGroup;
+			children = (
+				76C55FB62657BB570072B9D3 /* OCR_KorEng_iOS */,
+				76C55FB52657BB570072B9D3 /* Products */,
+				86C427B1651D6E860576C9A8 /* Pods */,
+				94473A0E6A4774C27952CAF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76C55FB52657BB570072B9D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76C55FB42657BB570072B9D3 /* OCR_KorEng_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76C55FB62657BB570072B9D3 /* OCR_KorEng_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7620542F26595DDE0017A044 /* labels.txt */,
+				763EB4332657F8F1002AE605 /* model.tflite */,
+				76C55FB72657BB570072B9D3 /* AppDelegate.swift */,
+				76C55FB92657BB570072B9D3 /* SceneDelegate.swift */,
+				76C55FBB2657BB570072B9D3 /* ViewController.swift */,
+				76C55FBD2657BB570072B9D3 /* Main.storyboard */,
+				76C55FC02657BB5C0072B9D3 /* Assets.xcassets */,
+				76C55FC22657BB5C0072B9D3 /* LaunchScreen.storyboard */,
+				76C55FC52657BB5C0072B9D3 /* Info.plist */,
+				763EB42D2657BC0B002AE605 /* OpenCVWrapper.mm */,
+				763EB42C2657BC0B002AE605 /* OCR_KorEng_iOS-Bridging-Header.h */,
+				763EB42F2657BC32002AE605 /* OpenCVWrapper.h */,
+				763EB4302657BC47002AE605 /* PrefixHeader.pch */,
+				763EB4312657D858002AE605 /* Recognizer.swift */,
+			);
+			path = OCR_KorEng_iOS;
+			sourceTree = "<group>";
+		};
+		86C427B1651D6E860576C9A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B516E33BB20427B15953573E /* Pods-OCR_KorEng_iOS.debug.xcconfig */,
+				246B56A1A3670FF3A089F134 /* Pods-OCR_KorEng_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		94473A0E6A4774C27952CAF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BCAE39D536928631D19E4BB /* Pods_OCR_KorEng_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76C55FB32657BB570072B9D3 /* OCR_KorEng_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C55FC82657BB5C0072B9D3 /* Build configuration list for PBXNativeTarget "OCR_KorEng_iOS" */;
+			buildPhases = (
+				3CC252B7A0BB9FE4ABAD7D87 /* [CP] Check Pods Manifest.lock */,
+				76C55FB02657BB570072B9D3 /* Sources */,
+				76C55FB12657BB570072B9D3 /* Frameworks */,
+				76C55FB22657BB570072B9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCR_KorEng_iOS;
+			productName = OCR_KorEng_iOS;
+			productReference = 76C55FB42657BB570072B9D3 /* OCR_KorEng_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76C55FAC2657BB570072B9D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					76C55FB32657BB570072B9D3 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 76C55FAF2657BB570072B9D3 /* Build configuration list for PBXProject "OCR_KorEng_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76C55FAB2657BB570072B9D3;
+			productRefGroup = 76C55FB52657BB570072B9D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76C55FB32657BB570072B9D3 /* OCR_KorEng_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76C55FB22657BB570072B9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C55FC42657BB5C0072B9D3 /* LaunchScreen.storyboard in Resources */,
+				76C55FC12657BB5C0072B9D3 /* Assets.xcassets in Resources */,
+				7620543026595DDE0017A044 /* labels.txt in Resources */,
+				76C55FBF2657BB570072B9D3 /* Main.storyboard in Resources */,
+				763EB4342657F8F1002AE605 /* model.tflite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CC252B7A0BB9FE4ABAD7D87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCR_KorEng_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76C55FB02657BB570072B9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763EB4322657D858002AE605 /* Recognizer.swift in Sources */,
+				76C55FBC2657BB570072B9D3 /* ViewController.swift in Sources */,
+				76C55FB82657BB570072B9D3 /* AppDelegate.swift in Sources */,
+				763EB42E2657BC0B002AE605 /* OpenCVWrapper.mm in Sources */,
+				76C55FBA2657BB570072B9D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76C55FBD2657BB570072B9D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C55FBE2657BB570072B9D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76C55FC22657BB5C0072B9D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C55FC32657BB5C0072B9D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76C55FC62657BB5C0072B9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76C55FC72657BB5C0072B9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76C55FC92657BB5C0072B9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B516E33BB20427B15953573E /* Pods-OCR_KorEng_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q46WRLSHT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCR_KorEng_iOS/PrefixHeader.pch";
+				INFOPLIST_FILE = OCR_KorEng_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.numver8638.OCR-KorEng-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCR_KorEng_iOS/OCR_KorEng_iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76C55FCA2657BB5C0072B9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246B56A1A3670FF3A089F134 /* Pods-OCR_KorEng_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q46WRLSHT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCR_KorEng_iOS/PrefixHeader.pch";
+				INFOPLIST_FILE = OCR_KorEng_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.numver8638.OCR-KorEng-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCR_KorEng_iOS/OCR_KorEng_iOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76C55FAF2657BB570072B9D3 /* Build configuration list for PBXProject "OCR_KorEng_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C55FC62657BB5C0072B9D3 /* Debug */,
+				76C55FC72657BB5C0072B9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C55FC82657BB5C0072B9D3 /* Build configuration list for PBXNativeTarget "OCR_KorEng_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C55FC92657BB5C0072B9D3 /* Debug */,
+				76C55FCA2657BB5C0072B9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76C55FAC2657BB570072B9D3 /* Project object */;
+}
